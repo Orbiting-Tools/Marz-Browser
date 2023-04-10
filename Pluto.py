@@ -13,20 +13,6 @@ win.document.title = "Pluto"
 # Load a web page
 win.location = "http://google.com"
 
-# Animation
-pygame.init()
-screen = pygame.display.set_mode((800, 600))
-pygame.display.set_caption("Pluto")
-
-# Draw Animation
-while True:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()
-            sys.exit()
-
-    pygame.display.flip()
-
 # Navigation bar
 navbar = win.document.createElement("nav")
 
