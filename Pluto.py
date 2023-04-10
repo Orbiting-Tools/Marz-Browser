@@ -1,4 +1,3 @@
-import pygame
 from tkinter import *
 
 # Create a new Browser Window
