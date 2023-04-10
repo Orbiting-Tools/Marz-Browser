@@ -1,5 +1,4 @@
 import pygame
-import color_palette
 from tkinter import *
 
 # Create a new Browser Window
@@ -58,10 +57,6 @@ reloadButton.innerHTML = "↻";
 reloadButton.onclick = function() {
     window.location.reload();
 };
-
-# Add the color picker to the navigation bar
-var colorPicker = color_palette.get_color_picker();
-navbar.appendChild(colorPicker);
 
 # Add the buttons to nav
 navbar.appendChild(backButton);
